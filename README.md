@@ -1,15 +1,23 @@
 # **Traffic Light Desk Timer [WIP]**
 A traffic-light-themed desk clock and timer that tracks study sessions, with a countdown timer for exam practice.
 
-**States**\
-clock: Displays current time.\
-currentSession: Stopwatch for tracking study time in current session.\
-timeToday: Displays total accumulated study time for the day, updates live.\
-examRunning: Countdown timer for practice tests.
+## **States**
+clock: displays current time.\
+![Clock display](images/clock.jpeg)
 
-![State diagram](images\state-diagram.drawio.svg)
+current session: stopwatch for tracking study time in current session.\
+![Current session display](images/current-session.jpeg)
 
-### **Bill of Materials**
+time today: displays total accumulated study time for the day, updates live.\
+![Accumulated time today display](images/time-today.jpeg)
+
+exam mode: countdown timer for practice tests.
+![exam mode display](images/exam-mode.jpeg)
+
+## **User Navigation**
+![State diagram](images/state-diagram.drawio.svg)
+
+## **Bill of Materials**
 | Item | Qty | Unit Cost (USD) | Total Cost (USD) | Source |
 | --- | --- | :---: | :---: | --- |
 | Arduino Nano V3 CH340 | 1 | 1.82 | 1.82 | Taobao: 深圳市轩特佳电子
@@ -22,4 +30,4 @@ examRunning: Countdown timer for practice tests.
 | 4.7k Ohm Resistor | 2 | 0.0034 | 0.0068 | Taobao: 海雀数码专营店
 | Solderless Breadboard Half Size | 1 | 0.20 | 0.20| Taobao: 深圳市育松创达电子有限公司
 
-Total Cost: 7 USD (to nearest dollar)
+**Total Cost: 7 USD (to nearest dollar)**
