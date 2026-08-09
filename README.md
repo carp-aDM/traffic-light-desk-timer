@@ -51,7 +51,7 @@ The desk timer is controlled using a 3-button interface (Red, Yellow and Green).
 </details>
 
 ## **How to Set Up**
-- Build your circuit according to the [schematic](hardware\circuit-schematic.pdf)
+- Build your circuit according to the [schematic](hardware/circuit-schematic.pdf)
 - Flash the firmware to your Nano. Make sure to uncomment [the RTC clock synchronization code](https://github.com/jamrock-shuffle/traffic-light-desk-timer/blob/75cabc53190b753a74b939d7437aed82e2967f3c/firmware/src/main.cpp#L31) (NB: make sure to comment it back out after your first upload!)
 
 ## **Bill of Materials**
