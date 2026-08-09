@@ -58,6 +58,7 @@ void stateMachine() {
                 break;
 
             case state::currentSession:
+                timesUp = false;
                 if (yellowButtonValue == LOW)
                 {
                     currentState = state::timeToday;
