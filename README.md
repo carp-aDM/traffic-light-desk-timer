@@ -11,7 +11,7 @@ current session: stopwatch for tracking study time in current session.\
 time today: displays total accumulated study time for the day, updates live.\
 <img src="images/time-today.jpeg" height=200 alt="time today display">
 
-exam mode: countdown timer for practice tests.
+exam mode: countdown timer for practice tests.\
 <img src="images/exam-mode.jpeg" height=200 alt="exam mode display">
 
 ## **User Navigation**
