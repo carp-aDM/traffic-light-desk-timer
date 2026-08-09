@@ -3,16 +3,16 @@ A traffic-light-themed desk clock and timer that tracks study sessions, with a c
 
 ## **States**
 clock: displays current time.\
-![Clock display](images/clock.jpeg)
+<img src="images/clock.jpeg" height=200 alt="clock display"> 
 
 current session: stopwatch for tracking study time in current session.\
-![Current session display](images/current-session.jpeg)
+<img src="images/current-session.jpeg" height=200 alt="current session display">
 
 time today: displays total accumulated study time for the day, updates live.\
-![Accumulated time today display](images/time-today.jpeg)
+<img src="images/time-today.jpeg" height=200 alt="time today display">
 
 exam mode: countdown timer for practice tests.
-![exam mode display](images/exam-mode.jpeg)
+<img src="images/exam-mode.jpeg" height=200 alt="exam mode display">
 
 ## **User Navigation**
 ![State diagram](images/state-diagram.drawio.svg)
